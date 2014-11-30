@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		345929691A2A351B00ABFA27 /* xigo_logrecord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345929681A2A351B00ABFA27 /* xigo_logrecord.cpp */; };
+		3459296B1A2A353200ABFA27 /* xigo_logrecordwifi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3459296A1A2A353200ABFA27 /* xigo_logrecordwifi.cpp */; };
+		3459296D1A2A3C7F00ABFA27 /* xigo_factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3459296C1A2A3C7F00ABFA27 /* xigo_factory.cpp */; };
+		345929701A2A3DDA00ABFA27 /* xigo_factory_table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3459296E1A2A3DDA00ABFA27 /* xigo_factory_table.cpp */; };
+		345929741A2A7A8600ABFA27 /* xigo_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345929731A2A7A8600ABFA27 /* xigo_file.cpp */; };
+		345929761A2B8B9800ABFA27 /* xigo_time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 345929751A2B8B9800ABFA27 /* xigo_time.cpp */; };
 		34F4864C1A2381C900862282 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34F4864B1A2381C900862282 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,8 +29,26 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3459295E1A27751400ABFA27 /* xigo_factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_factory.h; sourceTree = "<group>"; };
+		345929601A291FE300ABFA27 /* xigo_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_types.h; sourceTree = "<group>"; };
+		345929611A29210000ABFA27 /* xigo_file.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_file.h; sourceTree = "<group>"; };
+		345929621A2A2DE000ABFA27 /* xigo_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_template.h; sourceTree = "<group>"; };
+		345929631A2A2EC700ABFA27 /* xigo_time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_time.h; sourceTree = "<group>"; };
+		345929641A2A2F1300ABFA27 /* xigo_location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_location.h; sourceTree = "<group>"; };
+		345929651A2A317600ABFA27 /* xigo_string.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_string.h; sourceTree = "<group>"; };
+		345929661A2A31DF00ABFA27 /* xigo_logtypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_logtypes.h; sourceTree = "<group>"; };
+		345929671A2A32A200ABFA27 /* xigo_logrecordwifi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_logrecordwifi.h; sourceTree = "<group>"; };
+		345929681A2A351B00ABFA27 /* xigo_logrecord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_logrecord.cpp; sourceTree = "<group>"; };
+		3459296A1A2A353200ABFA27 /* xigo_logrecordwifi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_logrecordwifi.cpp; sourceTree = "<group>"; };
+		3459296C1A2A3C7F00ABFA27 /* xigo_factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_factory.cpp; sourceTree = "<group>"; };
+		3459296E1A2A3DDA00ABFA27 /* xigo_factory_table.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_factory_table.cpp; sourceTree = "<group>"; };
+		345929711A2A534A00ABFA27 /* xigo_factory_table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_factory_table.h; sourceTree = "<group>"; };
+		345929721A2A75E600ABFA27 /* xigo_component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo_component.h; sourceTree = "<group>"; };
+		345929731A2A7A8600ABFA27 /* xigo_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_file.cpp; sourceTree = "<group>"; };
+		345929751A2B8B9800ABFA27 /* xigo_time.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = xigo_time.cpp; sourceTree = "<group>"; };
 		34F486481A2381C900862282 /* CLT */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CLT; sourceTree = BUILT_PRODUCTS_DIR; };
 		34F4864B1A2381C900862282 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		34F486521A2381F500862282 /* xigo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xigo.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,24 @@
 			isa = PBXGroup;
 			children = (
 				34F4864B1A2381C900862282 /* main.cpp */,
+				345929721A2A75E600ABFA27 /* xigo_component.h */,
+				3459296E1A2A3DDA00ABFA27 /* xigo_factory_table.cpp */,
+				345929711A2A534A00ABFA27 /* xigo_factory_table.h */,
+				3459296C1A2A3C7F00ABFA27 /* xigo_factory.cpp */,
+				3459295E1A27751400ABFA27 /* xigo_factory.h */,
+				345929731A2A7A8600ABFA27 /* xigo_file.cpp */,
+				345929611A29210000ABFA27 /* xigo_file.h */,
+				345929641A2A2F1300ABFA27 /* xigo_location.h */,
+				345929681A2A351B00ABFA27 /* xigo_logrecord.cpp */,
+				3459296A1A2A353200ABFA27 /* xigo_logrecordwifi.cpp */,
+				345929671A2A32A200ABFA27 /* xigo_logrecordwifi.h */,
+				345929661A2A31DF00ABFA27 /* xigo_logtypes.h */,
+				345929651A2A317600ABFA27 /* xigo_string.h */,
+				345929621A2A2DE000ABFA27 /* xigo_template.h */,
+				345929631A2A2EC700ABFA27 /* xigo_time.h */,
+				345929601A291FE300ABFA27 /* xigo_types.h */,
+				34F486521A2381F500862282 /* xigo.h */,
+				345929751A2B8B9800ABFA27 /* xigo_time.cpp */,
 			);
 			path = CLT;
 			sourceTree = "<group>";
@@ -118,7 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345929701A2A3DDA00ABFA27 /* xigo_factory_table.cpp in Sources */,
+				3459296B1A2A353200ABFA27 /* xigo_logrecordwifi.cpp in Sources */,
+				345929761A2B8B9800ABFA27 /* xigo_time.cpp in Sources */,
+				345929691A2A351B00ABFA27 /* xigo_logrecord.cpp in Sources */,
 				34F4864C1A2381C900862282 /* main.cpp in Sources */,
+				345929741A2A7A8600ABFA27 /* xigo_file.cpp in Sources */,
+				3459296D1A2A3C7F00ABFA27 /* xigo_factory.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +280,7 @@
 				34F486511A2381C900862282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
